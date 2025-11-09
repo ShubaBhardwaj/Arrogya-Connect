@@ -31,7 +31,7 @@ const IconInsights = () => (
 
 const translations = {
     en: {
-        welcome_message: "Welcome back, Ramesh!", your: "Your", health_dashboard: "Health Dashboard",
+        welcome_message: "Welcome back, Shubham!", your: "Your", health_dashboard: "Health Dashboard",
         todays_schedule: "Today's Schedule", morning: "☀️ Morning", afternoon: "☀️ Afternoon", night: "🌙 Night", take_now: "Take Now ✅", taken: "Taken 👍",
         consistency_history: "Recent Consistency",
         consistency_score: "Consistency Score", consistency_start: "Let's start your day right!", consistency_progress: "Great progress, keep it up!", consistency_complete: "Excellent! You've completed your schedule.",
@@ -46,7 +46,7 @@ const translations = {
         yesterday: "Yesterday", day_before: "Day Before", days_ago: "days ago", uploaded_docs: "Uploaded Documents", view: "View", delete: "Delete"
     },
     hi: {
-        welcome_message: "वापसी पर स्वागत है, रमेश!", your: "आपका", health_dashboard: "स्वास्थ्य डैशबोर्ड",
+        welcome_message: "वापसी पर स्वागत है, शुभम!", your: "आपका", health_dashboard: "स्वास्थ्य डैशबोर्ड",
         todays_schedule: "आज का शेड्यूल", morning: "☀️ सुबह", afternoon: "☀️ दोपहर", night: "🌙 रात", take_now: "अभी लें ✅", taken: "ले लिया 👍",
         consistency_history: "हाल की निरंतरता",
         consistency_score: "निरंतरता स्कोर", consistency_start: "आइए अपने दिन की सही शुरुआत करें!", consistency_progress: "बढ़िया प्रगति, जारी रखें!", consistency_complete: "उत्कृष्ट! आपने अपना शेड्यूल पूरा कर लिया है।",
@@ -61,7 +61,7 @@ const translations = {
         yesterday: "कल", day_before: "परसों", days_ago: "दिन पहले", uploaded_docs: "अपलोड किए गए दस्तावेज़", view: "देखें", delete: "हटाएं"
     },
     or: {
-        welcome_message: "ପୁଣି ସ୍ୱାଗତ, ରମେଶ!", your: "ଆପଣଙ୍କର", health_dashboard: "ସ୍ୱାସ୍ଥ୍ୟ ଡ୍ୟାସବୋର୍ଡ",
+        welcome_message: "ପୁଣି ସ୍ୱାଗତ, ଶୁଭମ୍!", your: "ଆପଣଙ୍କର", health_dashboard: "ସ୍ୱାସ୍ଥ୍ୟ ଡ୍ୟାସବୋର୍ଡ",
         todays_schedule: "ଆଜିର ସୂଚୀ", morning: "☀️ ସକାଳ", afternoon: "☀️ ଅପରାହ୍ନ", night: "🌙 ରାତି", take_now: "ଏବେ ନିଅନ୍ତୁ ✅", taken: "ନିଆଯାଇଛି 👍",
         consistency_history: "ନିକଟସ୍ଥ ନିରନ୍ତରତା",
         consistency_score: "ନିରନ୍ତରତା ସ୍କୋର", consistency_start: "ଆସନ୍ତୁ ଆପଣଙ୍କ ଦିନର ସଠିକ୍ ଆରମ୍ଭ କରିବା!", consistency_progress: "ଉତ୍ତମ ଅଗ୍ରଗତି, ଏହାକୁ ଜାରି ରଖନ୍ତୁ!", consistency_complete: "ଉତ୍କୃଷ୍ଟ! ଆପଣ ଆପଣଙ୍କର ସୂଚୀ ସମ୍ପୂର୍ଣ୍ଣ କରିଛନ୍ତି।",
