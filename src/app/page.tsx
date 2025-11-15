@@ -23,7 +23,7 @@ export default function HomePage() {
   });
 
   // backend url
-  const API_URL = "http://127.0.0.1:8000/chat";
+  const API_URL = process.env.NEXT_PUBLIC_CHAT_BOT_API_URL || "http://127.0.0.1:8000/chatbot";
 
   useEffect(() => {
     // auto-scroll to bottom when messages or typing changes

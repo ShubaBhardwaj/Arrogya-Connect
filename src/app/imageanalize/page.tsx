@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect, useCallback, ChangeEvent, DragEvent, MouseEvent } from 'react';
 
 // --- CONFIG ---
-const API_BASE = "http://localhost:3050";
+const API_BASE = process.env.NEXT_PUBLIC_IMAGE_ANALYSIS_API_URL || 'http://localhost:3050';
 const ANALYZE_PATH = "/analysis";
 const apiUrl = (path: string) => API_BASE.replace(/\/$/, '') + path;
 
