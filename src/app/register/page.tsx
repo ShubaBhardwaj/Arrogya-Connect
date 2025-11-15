@@ -24,7 +24,12 @@ export default function Register() {
 
     try {
       // Call your registration API here
-      const response = await axios.post("/api/auth/register", formData);
+       const payload = {
+      username: formData.name,
+      email: formData.email,
+      password: formData.password,
+    };
+      const response = await axios.post("/api/auth/register", payload);
       if (response.status === 201 || response.status === 200) {
         toast.success(response.data.message || "Signup successful!");
         router.push("/login");
