@@ -426,7 +426,7 @@ export default function DashboardPage() {
             <p className="text-gray-700 font-medium mb-1">Just one step away</p>
             <p className="text-gray-500 text-sm mb-4">Get notified daily</p>
             <a
-              href="https://wa.me/14155238886"
+              href="https://wa.me/+14155238886"
               target="_blank"
               rel="noreferrer"
               className="inline-block bg-[var(--blue)] text-white py-2 px-6 rounded-full font-semibold text-sm hover:bg-blue-600 transition"

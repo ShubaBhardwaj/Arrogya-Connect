@@ -64,7 +64,7 @@ const PregnancyDashboard: React.FC = () => {
             </p>
           </div>
           <div className={iconClasses}>
-            <img src="233.jpeg" alt="Fetus" className="w-10 h-10" />
+            <img src="images/233.jpeg" alt="Fetus" className="w-10 h-10" />
           </div>
         </div>
 
@@ -82,14 +82,14 @@ const PregnancyDashboard: React.FC = () => {
             </p>
           </div>
           <div className={iconClasses}>
-            <img src="223.jpeg" alt="Baby" className="w-10 h-10" />
+            <img src="images/223.jpeg" alt="Baby" className="w-10 h-10" />
           </div>
         </div>
       </div>
 
       {/* --- Pregnant Woman Image (Absolute Positioned) --- */}
       <img 
-        src="12.png" 
+        src="images/12.png" 
         alt="Pregnant woman" 
         className="absolute bottom-8 right-10 w-[230px] hidden md:block" // Hidden on small screens (original @media)
       />
